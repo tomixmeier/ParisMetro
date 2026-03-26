@@ -1,2 +1,2 @@
 # ParisMetro
-SIA Project - Socioeconomic analysis of Paris metro and RER lines using spatial data
+SIA Project - Socioeconomic analysis of Paris Metro lines using spatial data
