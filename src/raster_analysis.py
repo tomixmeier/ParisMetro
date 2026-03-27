@@ -12,7 +12,8 @@ def extract_mean_raster_value(
     stats = zonal_stats(
         vectors=result.geometry,
         raster=raster_path,
-        stats=["mean", "count"]
+        stats=["mean", "count"],
+        all_touched=True
     )
 
     result[value_column] = [s["mean"] for s in stats]
