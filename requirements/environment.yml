@@ -1,0 +1,14 @@
+name: paris-metro
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - geopandas
+  - matplotlib
+  - rasterio
+  - numpy
+  - statsmodels
+  - rasterstats
+  - pip
+  

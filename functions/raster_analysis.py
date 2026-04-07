@@ -7,6 +7,12 @@ def extract_mean_raster_value(
     raster_path: str,
     value_column: str = "income_mean"
 ) -> gpd.GeoDataFrame:
+    """Extract mean raster values per polygon and add as new column.
+    Parameters:
+        polygons (GeoDataFrame): Input polygons
+        raster_path (str): Path to raster
+        value_column (str): Name of output column
+    Returns: GeoDataFrame: Polygons with mean values and cell counts"""
     result = polygons.copy()
 
     stats = zonal_stats(
