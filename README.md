@@ -10,15 +10,7 @@ The project has the following folder structure:
 - Outputs:      Contains the output figures, tables and HTML maps
 - Requirements: Contains the required environment and packages
 
-## Set-Up
-To run the code, Open the notebook in the notebook/ folder and run all cells.
-please install the packages indicated in the requirements file
-
-```bash
-pip install -r requirements/requirements.txt
-
 ## Description
-
 The script creates 400m catchment buffer around paris metro stations and analyze the average income inside them. For the analysis, several steps conducted: 
 
 1. Introduction and Context
@@ -34,3 +26,10 @@ The script creates 400m catchment buffer around paris metro stations and analyze
     5.2 Regression South
 6. Sensitivity Analysis
 7. Conclusion 
+
+## Set-Up
+To run the code, Open the notebook in the notebook/ folder and run all cells.
+please install the packages indicated in the requirements file
+
+```bash
+pip install -r requirements/requirements.txt
